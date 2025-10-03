@@ -38,9 +38,6 @@ Before initiating a connection to your apps or devices on Windows, ensure the fo
 
 Starting with version 4.0.1.0, the desktop edition of Azure VPN Client depends on the .NET 8 runtime. If it’s not already present, the MSI installer will download and install .NET 8 automatically. Without this runtime, systems must have access to the following URLs:
 
-* [https://aka.ms/dotnet/8.0/windowsdesktop-runtime-win-x64.exe](https://aka.ms/dotnet/8.0/windowsdesktop-runtime-win-x64.exe)
-* [https://aka.ms/dotnet/8.0/windowsdesktop-runtime-win-x86.exe](https://aka.ms/dotnet/8.0/windowsdesktop-runtime-win-x86.exe)
-
 The client leverages the .NET 8 runtime to provide the most modern and responsive UI. Even on 64-bit systems, the 32-bit runtime is needed because certain internal automation features function exclusively in 32-bit mode.
 
 If you encounter an error stating that the .NET 8 runtime installation has failed, it's likely due to connectivity issues or an incomplete package installation. To resolve this, manually install both runtime packages. Once installed, future versions of the Azure VPN Client will no longer attempt to download .NET 8.
