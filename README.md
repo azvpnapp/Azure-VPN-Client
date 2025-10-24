@@ -85,6 +85,6 @@ This option will appear only if your organization supports authentication via ce
 
 1. Launch the Azure VPN Client app on your device.
 2. Enter your associated school or work email and click **Next**.
-3. Choose **Sign in with a certificate**.
+3. Choose *Sign in with a certificate*.
 4. Tap **Continue** to confirm the selected certificate.
-5. The app will verify the certificate. Once approved, you'll be able to use the client and connect to your organization’s network.
+5. The app will verify the certificate. Once approved, you'll be able to use the client and connect to your organization’s network
